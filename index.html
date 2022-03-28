@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <svg class="main-logo">
+                <use xlink:href="./assets/img/logo/main_logo.svg#main-logo"></use>
+            </svg>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a class="nav-link" href="#skills" data-i18="Skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio" data-i18="Portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#video" data-i18="Video">Video</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#price" data-i18="Price">Price</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts" data-i18="Contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            
+            <div class="lang_buttons">
+                <div><a href="#" class="button en_lang">en</a></div> 
+                <div>/</div>
+                <div><a href="#" class="button ru_lang">ru</a></div> 
+            </div>
+            <div class="theme-wrapper">
+                <svg class="theme-light hidden" id="theme">
+                    <use xlink:href="./assets/img/logo/theme_light_logo.svg#theme-light"></use>
+                </svg>
+                <svg class="theme-dark" id="theme">
+                    <use xlink:href="./assets/img/logo/theme_dark_logo.svg#theme-dark"></use>
+                </svg>
+            </div>
+        
+            <div class="menu-bar">
+                <div class="hamburger" id="humb-un">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            
+            <section class="hero">
+                <h1 data-i18="hero-title">Alexa Rise</h1>
+                <p class="hero-p" data-i18="hero-text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+                <button class="hero-btn" data-i18="hire">Hire me</button>
+            </section>
+        </div>
+    </header>
+    <div class="aside-menu unvisible theme-lightn" id="aside">
+        <ul class="aside-list">
+            <li class="aside-item"><a href="#skills" class="aside-link" id="link" data-i18="Skills">Skills</a></li>
+            <li class="aside-item"><a href="#portfolio" class="aside-link" id="link" data-i18="Portfolio">Portfolio</a></li>
+            <li class="aside-item"><a href="#video" class="aside-link" id="link" data-i18="Video">Video</a></li>
+            <li class="aside-item"><a href="#price" class="aside-link" id="link" data-i18="Price">Price</a></li>
+            <li class="aside-item"><a href="#contacts" class="aside-link" id="link" data-i18="contacts">Contacts</a></li>
+        </ul>
+    </div>
+    <main>
+        <div class="container">            
+            <section class="skills theme-lightn" id="skills">
+                <h2 class="section-title theme-lightn" data-i18="skills">Skills</h2>
+                <div class="skills-container">
+                    <div class="skills-item">
+                        <img src="./assets/img/logo/skills_logo1.svg" alt="camera" class="skills-logo">
+                        <h3 class="skills skills-h3 theme-lightn"data-i18="skill-title-1">Digital photography</h3>
+                        <p class="skills skills-p theme-lightn" data-i18="skill-text-1">High-quality photos in the studio and on the nature</p>
+                    </div>
+                    <div class="skills-item">
+                        <img src="./assets/img/logo/skills_logo2.svg" alt="video" class="skills-logo">
+                        <h3 class="skills skills-h3 theme-lightn" data-i18="skill-title-2">Video shooting</h3>
+                        <p class="skills skills-p theme-lightn" data-i18="skill-text-2">Capture your moments so that they always stay with you</p>
+                    </div>
+                    <div class="skills-item">
+                        <img src="./assets/img/logo/skills_logo3.svg" alt="image" class="skills-logo">
+                        <h3 class="skills skills-h3 theme-lightn" data-i18="skill-title-3">Retouch</h3>
+                        <p class="skills skills-p theme-lightn" data-i18="skill-text-3">I strive to make photography surpass reality</p>
+                    </div>
+                    <div class="skills-item">
+                        <img src="./assets/img/logo/skills_logo4.svg" alt="micro" class="skills-logo">
+                        <h3 class="skills skills-h3 theme-lightn" data-i18="skill-title-4">Audio</h3>
+                        <p class="skills skills-p theme-lightn" data-i18="skill-text-4">Professional sounds recording for video, advertising, portfolio</p>
+                    </div>
+                </div>
+            </section>
+            <section class="theme portfolio theme-lightn" id="portfolio">
+                <h2 class="section-title theme-lightn" data-i18="Portfolio">Portfolio</h2>
+                <div class="button-wrapper">
+                    <button class="theme portfolio-btn btn theme-lightn" data-i18="Winter">Winter</button>
+                    <button class="theme portfolio-btn btn theme-lightn" data-i18="Spring">Spring</button>
+                    <button class="theme portfolio-btn btn theme-lightn" data-i18="Summer">Summer</button>
+                    <button class="theme portfolio-btn btn btn-active theme-lightn" data-i18="Autumn">Autumn</button>
+                </div>
+
+                <div class="portfolio-wrapper">            
+                    <img src="./assets/img/portfolio-img.jpg" alt="photo1" class="portfolio-img">
+                    <img src="./assets/img/portfolio-img-1.jpg" alt="photo2" class="portfolio-img">
+                    <img src="./assets/img/portfolio-img-2.jpg" alt="photo3" class="portfolio-img">
+                    <img src="./assets/img/portfolio-img-3.jpg" alt="photo4" class="portfolio-img">
+                    <img src="./assets/img/portfolio-img-4.jpg" alt="photo5" class="portfolio-img">
+                    <img src="./assets/img/portfolio-img-5.jpg" alt="photo6" class="portfolio-img">
+                </div>
+            </section>
+            <section class="video theme-lightn" id="video">
+                <h2 class="section-title theme-lightn" data-i18="Video">Video</h2>
+                <div class="video-wrapper">
+                    <video class="video-player" preload="metadata">
+                        <source src="./assets/video/video.mp4" type="video/mp4"></source>
+                    </video>  
+                    <svg class="player-logo">
+                        <use xlink:href="./assets/img/logo/logo-player.svg#player-logo"></use>
+                    </svg>  
+                    <div class="video-controls">
+                        <input type="range" value="0" min="0" max="100" step="1" class="video-progr">
+                        <div class="ctrl-left">
+                            <svg class="play ctrl-logo">
+                                <use xlink:href="./assets/img/logo/play-logo.svg#play"></use>
+                            </svg>
+                            <svg class="pause ctrl-logo hidden">
+                                <use xlink:href="./assets/img/logo/pause-logo.svg#pause"></use>
+                            </svg> 
+                            <svg class="stop ctrl-logo">
+                                <use xlink:href="./assets/img/logo/stop-logo.svg#stop"></use>
+                            </svg>                   
+                        </div>
+                        <div class="volume-controls">
+                            <svg class="volume ctrl-logo">
+                                <use xlink:href="./assets/img/logo/volume.svg#volume"></use>
+                            </svg>
+                            <svg class="no-volume ctrl-logo hidden">
+                                <use xlink:href="./assets/img/logo/no-volume.svg#no-volume"></use>
+                            </svg>
+                            <input type="range" value="20" min="0" max="100" step="1" id="volume" class="video-progr volume">
+                            <div class="controls-time">00:00</div>
+                        </div>                    
+                    </div>  
+                </div>
+            </section>
+            <section class="theme price theme-lightn" id="price">
+                <h2 class="section-title theme-lightn" data-i18="Price">Price</h2>
+                <div class="price-wrapper">
+                    <div class="price-item">
+                        <h3 class="theme price-h3 theme-lightn">Standard</h3>
+                        <p class="price-cost">500 $</p>
+                        <p class="theme price-descr theme-lightn"> <span  data-i18="price-description-1-span-1">One location</span>
+                            <span data-i18="price-description-1-span-2">120 photos in color</span>
+                            <span data-i18="price-description-1-span-3">12 photos in retouch</span>
+                            <span data-i18="price-description-1-span-4">Readiness 2-3 weeks</span>
+                            <span data-i18="price-description-1-span-5">Make up, visage</span></p>
+                        <button class="price-btn btn" data-i18="order">Order shooting</button>
+                    </div>
+                    <div class="price-item">
+                        <h3 class="theme price-h3 theme-lightn">Premium</h3>
+                        <p class="price-cost">700 $</p>
+                        <p class="theme price-descr theme-lightn"><span data-i18="price-description-2-span-1">One or two locations</span>
+                            <span data-i18="price-description-2-span-2">200 photos in color</span>
+                            <span data-i18="price-description-2-span-3">20 photos in retouch</span>
+                            <span data-i18="price-description-2-span-4">Readiness 1-2 weeks</span>
+                            <span data-i18="price-description-2-span-5">Make up, visage</span></p>
+                        <button class="price-btn btn" data-i18="order">Order shooting</button>
+                    </div>
+                    <div class="price-item">
+                        <h3 class="theme price-h3 theme-lightn">Gold</h3>
+                        <p class="price-cost">1000 $</p>
+                        <p class="theme price-descr theme-lightn"><span data-i18="price-description-3-span-1">Three locations or more</span>
+                            <span data-i18="price-description-3-span-2">300 photos in color</span>
+                            <span data-i18="price-description-3-span-3">50 photos in retouch</span>
+                            <span data-i18="price-description-3-span-4">Readiness 1 week</span>
+                            <span data-i18="price-description-3-span-5">Make up, visage, hairstyle</span></p>
+                        <button class="price-btn btn" data-i18="order">Order shooting</button>
+                    </div>
+                </div>
+                
+            </section>
+            
+        </div>
+    </main>
+    <section class="contacts" id="contacts">
+        <div class="contact-container">
+            <div class="contact-wrapper">
+                <h2 class="contact-title" data-i18="contact-me">Contact me</h2>
+                <input type="email" class="contact-email" placeholder="E-mail">
+                <input type="tel" class="contact-phone" placeholder="Phone">
+                <textarea name="text" cols="30" rows="2" class="contact-comment" placeholder="Message"></textarea>
+                <button class="contact-btn btn" data-i18="send-message">Send message</button>
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-git">
+                <div class="footer-text">©</div>
+                <div class="footer-text">2022</div>
+                <div ><a href="https://github.com/Kerberry" class="footer-text">github</a></div>
+            </div>
+            <div class="school"><a href="https://rs.school/js-stage0/" class="footer-text">Rolling Scopes School</a></div>
+
+            <ul class="sprite">
+                <li>
+                    <svg class="icon">
+                        <use xlink:href="./assets/img/logo/sprite.svg#footer_logo1"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="icon">
+                        <use xlink:href="./assets/img/logo/sprite.svg#footer_logo2"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="icon">
+                        <use xlink:href="./assets/img/logo/sprite.svg#footer_logo3"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="icon">
+                        <use xlink:href="./assets/img/logo/sprite.svg#footer_logo4"></use>
+                    </svg>
+                </li>
+            </ul>            
+        </div>
+    </footer>
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./translate.js"></script>
+</body>
+</html>
